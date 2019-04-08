@@ -1,0 +1,25 @@
+<html>
+<head>
+ <h1 align="center"> MyCHAT </h1>
+</head>
+<body>
+<SCRIPT  language=JavaScript> 
+function validar(){
+if (document.form.password.value=='Utec2019' && document.form.login.value=='SaidChoq'){ 
+	alert("Ha ingresado Correctamente"); 
+    } 
+    else{ 
+         alert("On snap! Invalid password or username"); 
+    } 
+} 
+</SCRIPT> 
+<form name=form>
+
+<div> Username: <input type="text" name=username></input></div>
+
+<div> Password: <input type="password" name=password></input></div>
+
+<input onclick=validar() type="button" value="LOG IN">
+</form>
+</body>
+</html>
